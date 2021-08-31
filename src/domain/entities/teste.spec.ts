@@ -1,4 +1,4 @@
-import { Teste } from '@/teste'
+import { Teste } from '@entities/teste'
 
 describe('teste', () => {
   it('teste', () => {

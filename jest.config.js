@@ -6,7 +6,7 @@ module.exports = {
   ],
   moduleFileExtensions: ["js", "jsx", "ts", "tsx", "json", "node"],
       coverageDirectory: "coverage",
-      testEnvironment: "node",
+      testEnvironment: "jsdom",
       transform:{
       ".+\\.(ts|tsx)$":"ts-jest"
 },

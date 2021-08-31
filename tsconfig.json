@@ -110,5 +110,5 @@
     "skipLibCheck": true,
   },
   "include": ["src"] ,
-  "exclude": [""]                               /* Skip type checking all .d.ts files. */
+  "exclude": ["build"]                               /* Skip type checking all .d.ts files. */
 }
