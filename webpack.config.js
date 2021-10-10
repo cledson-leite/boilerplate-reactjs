@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
-    publicPath: '/public/js',
+    publicPath: '/',
   },
   devServer: {
     historyApiFallback: true
@@ -52,16 +52,16 @@ module.exports = {
         test: /\.scss$/,
         use: [
           {
-            loader: 'style- loader'
+            loader: 'style-loader'
           },
           {
-            loader: 'css - loader',
+            loader: 'css-loader',
             options: {
               modules: true
             }
           },
           {
-            loader: 'scss - loader'
+            loader: 'scss-loader'
           },
           
           ]
