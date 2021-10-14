@@ -10,7 +10,8 @@ module.exports = {
       transform:{
       ".+\\.(ts|tsx)$":"ts-jest"
 },
-      moduleNameMapper: {
+  moduleNameMapper: {
+    "\\.scss$": "identity-obj-proxy",
         "@/(.*)": "<rootDir>/src/$1",
         "@entities/(.*)": "<rootDir>/src/domain/entities/$1",
         "@usecases/(.*)": "<rootDir>/src/domain/usecases/$1",
