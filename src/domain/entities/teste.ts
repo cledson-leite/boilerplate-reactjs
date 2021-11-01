@@ -1,1 +1,3 @@
-export class Teste {}
+export class Teste {
+  private readonly teste: any
+}
