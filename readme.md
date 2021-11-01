@@ -1,0 +1,1 @@
+[![Build Status](https://app.travis-ci.com/cledson-leite/boilerplate-reactjs.svg?branch=production)](https://app.travis-ci.com/cledson-leite/boilerplate-reactjs) [![Coverage Status](https://coveralls.io/repos/github/cledson-leite/boilerplate-reactjs/badge.svg?branch=production)](https://coveralls.io/github/cledson-leite/boilerplate-reactjs?branch=production)
